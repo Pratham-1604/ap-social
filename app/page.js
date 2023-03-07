@@ -1,12 +1,14 @@
 // import "./global.css";
-import LoginPageComponent from '../components/login_page_component'
+import LoginPageForm from "@/components/login_page_form";
+import LoginPageComponent from "../components/login_page_component";
 
 export default function Home() {
   return (
     <>
-      <body className="bg-purple-900">
+      <body className="bg-violet-300">
         <div className="flex justify-center">
-          <LoginPageComponent/>
+          <LoginPageComponent />
+          <LoginPageForm />
         </div>
       </body>
     </>
