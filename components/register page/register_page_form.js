@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 export default function LoginPageForm() {
   return (
     <div className="container bg-white w-[25rem] px-[25px] py-[10px] h-[35rem] flex-0 justify-start my-[7rem] rounded-tl rounded-bl">
@@ -32,9 +35,11 @@ export default function LoginPageForm() {
             className="appearance-none border-b py-2 mb-4 leading-tight focus:outline-none my-10 w-[15rem]"
           />
         </form>
-        <button className="bg-violet-300 py-2 w-[12rem] my-5 rounded-lg">
-          Register
-        </button>
+        <Link href="/home">
+          <button className="bg-violet-300 py-2 w-[12rem] my-5 rounded-lg">
+            Register
+          </button>
+        </Link>
       </div>
     </div>
   );
