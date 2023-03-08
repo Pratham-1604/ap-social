@@ -1,6 +1,5 @@
-// import "./global.css";
-import LoginPageForm from "@/components/login_page_form";
-import LoginPageComponent from "../components/login_page_component";
+import LoginPageForm from "@/components/login page/login_page_form";
+import LoginPageComponent from "@/components/login page/login_page_component";
 
 export default function Home() {
   return (
