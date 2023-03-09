@@ -29,7 +29,7 @@ export default function LoginPageForm() {
           />
           <br></br>
           <input
-            type="password"
+            type="text"
             name="registerPassword"
             placeholder="Password"
             className="appearance-none border-b py-2 mb-4 leading-tight focus:outline-none my-10 w-[15rem]"
